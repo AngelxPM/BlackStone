@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/05/2017, 12:16:39 AM
+    Author     : AngelxPM
+*/
+.in-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.in-container img{
+    width: 90%;
+    margin-top: 50px;
+}
+.in-head{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 50px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    background-color: #e2e2e2;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    clear: both;
+}
+.in-container span{
+    width: 100%;
+    margin-left: 15px;
+}
+.both{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+}
+.U-Old{
+    width: 50%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    float: left;
+}
+.U-New{
+    width: 50%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    float: left;
+}
+.U-Des{
+    width: 85%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+    
+    text-align: justify;
+    text-justify: inter-word; 
+    height: 70px;
+}
+.U-Datos{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em; 
+    text-align: left;
+}
+.U-Datos [type="text"],[type="password"]{
+    float: none;
+    width: 25%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 1.1em; 
+    text-align: left;
+    
+    border: none;
+    border-bottom: 2px solid #F55856;
+    transition: width .35s ease-in-out;
+}
+.U-Datos [type="text"]:focus, [type="password"]:focus{
+    width: 85%;
+    border: none;
+    border-bottom: 2px solid #F55856; 
+    outline: none;
+}
+#pass{
+    float: none;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 1.1em; 
+    text-align: left;
+    color:#F55856;
+    text-decoration: none;
+    margin-bottom: 11px;
+}
+button{
+    width: 100%;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 45px;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    border: none;
+    transition: all 500ms ease-in-out 0s;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: #F55856;
+    color: #FFFFFF;
+    transition: all 500ms ease-in-out 0s;
+}

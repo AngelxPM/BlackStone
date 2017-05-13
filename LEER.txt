@@ -1,0 +1,1 @@
+Se creo la base de datos y los "diagramas" estan en la carpeta de imagenes en la carpeta de tablas

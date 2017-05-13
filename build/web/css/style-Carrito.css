@@ -1,0 +1,257 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/05/2017, 09:23:07 AM
+    Author     : AngelxPM
+*/
+
+.in-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.in-container img{
+    width: 90%;
+}
+.in-head{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 50px;
+    font-size: 1.5em;
+    background-color: #e2e2e2;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    clear: both;
+}
+.in-container span{
+    width: 100%;
+    margin-left: 15px;
+}
+/* ----------------------------- 
+.Carrito{
+    width: 100%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item{
+    width: 100%;
+    height: 150px;
+    float: none;
+}
+
+.C-Item-Img {
+    float: left;
+    width: 15%;
+    text-align: center;
+    top:0;
+    height: 150px;
+    
+    
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Img img{
+    width: 85%;
+}
+
+.C-Item-Des{
+    float: left;
+    width: 55%;
+    text-align: left;
+    height: 150px;
+    
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Cant{
+    float: left;
+    width: 15%;
+    text-align: center;
+    top:0;
+    height: 150px;
+    
+    
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+
+.C-Item-Precio{
+    float: left;
+    width: 15%;
+    text-align: center;
+    height: 150px;
+    background-color: red;
+    
+}
+*/
+.C-Carrito{
+    width: 100%;
+    
+    
+}
+.C-Item{
+    width: 100%;
+    height: 150px;
+    float: none;
+    
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Img{
+    width: 15%;
+    height: 150px;
+    float:left;
+    
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Desc{
+    width: 50%;
+    height: 150px;
+    float:left;
+    text-align: left;
+    
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Cantidad{
+    width: 10%;
+    height: 150px;
+    float:left;
+    
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Precio{
+    width: 15%;
+    height: 150px;
+    float:left;
+    
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Eliminar{
+    width: 10%;
+    height: 150px;
+    float:left;
+    
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.C-Item-Img img{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.C-Item-Desc p{
+    font-size: 1em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    text-align: justify;
+    text-justify: inter-word; 
+}
+.C-Item-Desc p label{
+    font-size: 1.5em;
+    color:#F55856;
+    width: 100%;
+    float: none;
+    
+    margin-top: 10px;
+}
+.C-Item-Cantidad p{
+    width: 100%;
+    float:left;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.C-Item-Cantidad p{
+    width: 100%;
+    float:left;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.C-Item-Cantidad p [type="number"]{
+    width: 80%;
+    font-size: .8em;
+    text-align: center;
+}
+.C-Item-Precio p{
+    width: 100%;
+    float:left;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.C-Item-Precio p span{
+    width: 100%;
+    color:#F55856;
+}
+.C-Item-Eliminar p{
+    width: 100%;
+    float:left;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.C-Total{
+    clear: both;
+    width: 100%;
+    font-size: 1.5em;
+}
+.C-Total p{
+    clear: both;
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+.C-Total span{
+    
+    text-align: right;
+    width: 100%;
+    color:#F55856;
+}
+.C-Total button{
+    width: 100%;
+    display: block;
+    float: left;
+    line-height: 45px;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    border: none;
+    transition: all 500ms ease-in-out 0s;
+}
+.C-Total button:hover{
+    background-color: #F55856;
+    color: #FFFFFF;
+    transition: all 500ms ease-in-out 0s;
+}
+.C-Total button:hover{
+    background-color: #F55856;
+    color: #FFFFFF;
+    transition: all 500ms ease-in-out 0s;
+}
+.C-Total [type="checkbox"]{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.C-Item-Eliminar button{
+    width: 80%;
+    display: block;
+    line-height: 45px;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    border: none;
+    transition: all 500ms ease-in-out 0s;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.C-Item-Eliminar button:hover{
+    background-color: #F55856;
+    color: #FFFFFF;
+    transition: all 500ms ease-in-out 0s;
+}
