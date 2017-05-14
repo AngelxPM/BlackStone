@@ -74,7 +74,9 @@
                  
             </div>
             <p class="both"></p> 
+            <br><br><br>
         </div>
+        
         <div class="fotter">
             <ul id="nav">
                 <img src="img/LogoBS-N.png" alt="Logo"/>
