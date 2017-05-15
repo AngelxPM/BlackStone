@@ -6,6 +6,8 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+
+
 <html>
     <head>
              
@@ -16,9 +18,10 @@
         <link rel="stylesheet" href="css/style-Inicio.css">
         <title>INICIO - BLACKSTONE</title>
     </head>
-    <body>
-        <form name="Formulario" action="ControladorInicio">
-            <div class="container" onclick="submit();" >
+    <body >
+        
+        <form name="Formulario" >
+            <div class="container"  >
 
                 <ul id="nav">
                     <img src="img/LogoBS-N.png" alt="Logo"/>

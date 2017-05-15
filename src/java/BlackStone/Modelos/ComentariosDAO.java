@@ -20,8 +20,8 @@ public class ComentariosDAO {
     private void abrirConexion() throws SQLException, IOException{
         
         String URI = "jdbc:derby://localhost:1527/BlackStone";
-        String username = "fcfm";
-        String password = "lsti01";
+        String username = "BackStoneAdmin";
+        String password = "BackStoneAdmin";
         
         conexion = DriverManager.getConnection(URI,username,password);
         
@@ -54,6 +54,45 @@ public class ComentariosDAO {
             
         }
         
+    }
+    
+    public ArrayList<Producto> catalago() throws SQLException, IOException{
+        
+        ResultSet mensajes;
+        ArrayList<Producto> catalagoProd = new ArrayList();
+        
+        try{
+            
+            abrirConexion();
+                        
+            String sql = "select * from PRODUCTO";
+            
+            Statement stmt = conexion.createStatement();
+            mensajes =stmt.executeQuery(sql);
+            
+            while(mensajes.next()){
+                
+                Producto prod = new Producto();
+                
+                prod.setIdProducto(Integer.parseInt(mensajes.getString("IDPRODUCTO")));
+                prod.setNombre(mensajes.getString("NOMBREPRODUCTO"));
+                prod.setDescripcion(mensajes.getString("DESCRIPCION"));
+                prod.setPrecioUnitario(Double.parseDouble(mensajes.getString("PRECIOUNITARIO")));
+                prod.setIdCategoria(Integer.parseInt(mensajes.getString("IDCATEGORIA")));
+                
+                
+                catalagoProd.add(prod);
+            
+            }
+            
+            cerrarConexion();
+            
+        }catch(SQLException x){
+            
+            
+        }
+        
+        return catalagoProd;
     }
     /*
     public ArrayList<ComentariosPOJO> buscar(ComentariosPOJO cPOJO) throws SQLException, IOException{
