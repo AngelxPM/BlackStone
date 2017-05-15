@@ -28,7 +28,7 @@
                 <li><a href="Carrito.jsp">CARRITO</a></li>
                 <li><a href="Categorias.jsp">CATEGORIAS</a></li>
                 <li><a href="Productos.jsp">PRODUCTOS</a>
-                <li><a href="Inicio.jsp">INICIO</a></li>
+                <li><a href="ControladorInicio">INICIO</a></li>
                 
             </ul>
             

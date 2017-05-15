@@ -6,10 +6,13 @@
 package BackStone.Controladores;
 
 import BlackStone.Modelos.ComentariosDAO;
+import BlackStone.Modelos.Producto;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,16 +21,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import BlackStone.Modelos.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
  *
  * @author AngelxPM
  */
-@WebServlet(name = "ControladorInicio", urlPatterns = {"/ControladorInicio"})
-public class ControladorInicio extends HttpServlet {
+@WebServlet(name = "ControladorProductos", urlPatterns = {"/ControladorProductos"})
+public class ControladorProductos extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -43,7 +42,7 @@ public class ControladorInicio extends HttpServlet {
             throws ServletException, IOException, SQLException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            
+            /* TODO output your page here. You may use following sample code. */
             HttpSession session = request.getSession();
             RequestDispatcher dispatcher = null;
             
@@ -53,8 +52,7 @@ public class ControladorInicio extends HttpServlet {
             
             ArrayList<Producto> Productos = cDAO.catalago();
             session.setAttribute("Productos", Productos);
-            response.sendRedirect("Inicio.jsp");  
-            
+            response.sendRedirect("Productos.jsp");  
         }
     }
 
@@ -73,7 +71,7 @@ public class ControladorInicio extends HttpServlet {
         try {
             processRequest(request, response);
         } catch (SQLException ex) {
-            Logger.getLogger(ControladorInicio.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ControladorProductos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -91,7 +89,7 @@ public class ControladorInicio extends HttpServlet {
         try {
             processRequest(request, response);
         } catch (SQLException ex) {
-            Logger.getLogger(ControladorInicio.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ControladorProductos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

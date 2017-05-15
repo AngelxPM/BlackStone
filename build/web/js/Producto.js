@@ -14,3 +14,4 @@ function CamImg04(){
 function CamImg05(){
     document.getElementById("Img0P").src=document.getElementById("Img05").src;
 }
+

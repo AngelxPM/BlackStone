@@ -16,37 +16,19 @@
     <body>
         
         <h1>Hello World!</h1>
-        
-        
         <% 
             if(session != null){
-                ArrayList Catalago = (ArrayList) session.getAttribute("Productos");
-                if(Catalago != null){
-        %>        
-        
-                <table border="1">
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Comentario</th>
-                    </tr>       
-                    
-                <% 
-                    for(Object o : Catalago){
-                        Producto Prodcutos  = (Producto) o;
+                ArrayList comentarios = (ArrayList) session.getAttribute("Productos");
+                if(comentarios != null){
+                    for(Object o : comentarios){
+                        Producto comentario  = (Producto) o;
                 %>       
-                    <tr>
-                        <td><%=Prodcutos.getIdProducto()%></td>
-                        <td><%=Prodcutos.getNombre()%></td>
-                        <td><%=Prodcutos.getDescripcion()%></td>
-                        <td><%=Prodcutos.getPrecioUnitario()%></td>
-                        <td><%=Prodcutos.getIdCategoria()%></td>
-                    </tr>    
-                        
-                <%  }   //for   %>
-                
-                </table>    
                     
-        <%      }
-            }   %>
+                        <td><%=comentario.getNombre()%></td>
+                        <td><%=comentario.getIdProducto()%></td>
+                        
+                        
+                <%  }   }   }   %>
+                    
     </body>
 </html>

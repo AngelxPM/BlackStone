@@ -38,76 +38,30 @@
                     <span>Todos nuestros productos</span>   
                 </div>
                 <div class="in-div-SO">
+                <%    
+                    if(session != null){     
+                        ArrayList Catalago = (ArrayList) session.getAttribute("Productos");
+                        if(Catalago != null){  
+                            for(Object o : Catalago){   Producto Prodcutos  = (Producto) o;
+                %>                
+                         
+                <form method="post" action="ControladorMore">
                     <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
+                        <p name="Name"><%=Prodcutos.getNombre()%></p>    
+                        <img src="img/prod/<%=Prodcutos.getNombre()%>/01.png" alt="<%=Prodcutos.getNombre()%>"/>
+                        <p id="info"><%=Prodcutos.getDescripcion()%></p>                 
+                        
+                        <input type="hidden" name="accion" value="<%=Prodcutos.getNombre()%>">
+                        
+                        <button onclick="ControladorMore">Ver mas..</button>
+                        <button onclick="submit">Agregar</button>
+                        
                     </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
-                    <div class="in-div-Pro">
-                        <p name="Name">RAM HYPER-X</p>
-                        <img src="img/prod/ram.jpg" alt="RAM"/>
-                        <p id="info">La mejor ram para gamers pros hd 1 link mega español</p>
-                        <button name="mas" id="mas">Ver mas..</button>
-                        <button name="add" id="add">Agregar</button>
-                    </div>
+                </form>      
+                   
+                <%  }   }   }   %>
+                </div>
+                
                 </div>
             </div>
             

@@ -65,6 +65,10 @@ and open the template in the editor.
     
     margin-left: auto;
     margin-right: auto;
+    
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
 }
 .in-div-Pro img{
     width: 95%;
@@ -73,7 +77,7 @@ and open the template in the editor.
     top:0;
     
 }
-#add, #mas{
+button{
     width: 50%;
     display: block;
     float: left;
@@ -86,7 +90,7 @@ and open the template in the editor.
     
     transition: all 500ms ease-in-out 0s;
 }
-#add:hover, #mas:hover{
+button:hover{
     background-color: #F55856;
     color: #FFFFFF;
     transition: all 500ms ease-in-out 0s;

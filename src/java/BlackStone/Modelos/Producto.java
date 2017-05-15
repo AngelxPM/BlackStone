@@ -13,13 +13,20 @@ import BlackStone.Modelos.*;
  * @author AngelxPM
  */
 public class Producto {
-    
-    private int idProducto;
-    private String nombre;
-    private String descripcion;
-    private double precioUnitario;
-    private int idCategoria;
-    
+
+    /**
+     * @return the Stock
+     */
+    public int getStock() {
+        return Stock;
+    }
+
+    /**
+     * @param Stock the Stock to set
+     */
+    public void setStock(int Stock) {
+        this.Stock = Stock;
+    }
 
     /**
      * @return the idProducto
@@ -90,6 +97,17 @@ public class Producto {
     public void setIdCategoria(int idCategoria) {
         this.idCategoria = idCategoria;
     }
+
+    /**
+     * @return the IMGS
+     */
     
+    private int idProducto;
+    private String nombre;
+    private String descripcion;
+    private double precioUnitario;
+    private int idCategoria;
+    private int Stock;
+
     
 }
