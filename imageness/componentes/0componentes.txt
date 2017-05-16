@@ -1,0 +1,80 @@
+memorias ram
+
+1. Kingston HyperX Fury DDR4 2133 PC4-17000 8GB CL14
+69 €
+SIN IVA
+57,02€
+
+Disfruta de toda la potencia y saca el mayor partido a tu procesador y gráfica con la serie Fury de Kingston.
+ Con el lanzamiento del procesador Intel Skylake y los chipsets de serie 100, 
+HyperX se complace en anunciar que todas sus unidades HyperX FURY DDR4 y HyperX Predator DDR4 son compatibles con Skylake. 
+
+Especificaciones:
+
+Capacidad 8GB
+Latencia CL14
+Tiempo de ciclo 46.5ns
+Tiempo de refresco 260ns
+Row Active 32.75ns
+Clasificación 94 V- 0
+
+
+PROCESADORES
+
+
+3.Intel Core i5-6600 3.3GHZ Box
+219 €
+SIN IVA
+180,99€
+Fabricados en 14 nanómetros, estos Intel Core i7 repiten el proceso instaurado en los Broadwell 
+y cuenta con 6 núcleos a 3.4GHz y un turbo que aumenta la frecuencia a  3.6GHz. 
+También posee 15MB de memoria caché L3.El i7 dispone de 28 líneas PICe, aprovechando al máximo el rendimiento de una tarjeta gráfica operando a x16, 
+o permitiendo el uso compartido de una solución SLI e en x8/x8 en una instalación dual, x8/x4/x4 en una triple AMD Crossfire
+
+i7 6800K especificaciones
+Type	CPU / Microprocessor
+Market segment	Desktop
+Family Intel Core i7
+Model number ? i7-6800K
+Frequency ? 3400 MHz
+Turbo frequency	3600 MHz
+Clock multiplier ? 34
+Socket	Socket 2011-3 / R3 / LGA2011-3
+
+
+DISCOS DUROS
+1- Seagate Desktop 7200.14 2TB SATA3 64MB
+69 ,95€
+SIN IVA
+57,81€
+Rendimiento de 7200 rpm para unidades de 250 GB hasta 3 TB
+
+Especificaciones
+
+Interfaz: SATA 6Gb/s
+Caché: 64MB
+Capacidad: 2TB
+Densidad de área (promedio): 625Gb/in2
+Sectores garantizados: 3,907,029,168
+Información Física 
+- Altura: 26.1mm (1.028 in) 
+- Anchura: 101.6mm (4.0 in) 
+- Largo: 146.99mm (5.787 in) 
+- Peso (típico): 626g (1.38 lb)
+
+
+FUENTES DE ALIMENTACION 
+1-Tacens Mars Gaming 800W 80 Plus
+53 ,50€
+SIN IVA
+44,21€
+Diseño ecológico 85+ con una eficiencia extremadamente alta de hasta un 85% para el ahorro de energía y una larga vida
+
+Especificaciones
+
+Marca Tacens
+Modelo Mars MP800
+Potencia 800W
+Tipo ATX 12V
+Ventilación 1 x 120mm
+Dimensiones 150 x 85 x 140 mm
