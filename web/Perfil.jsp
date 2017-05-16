@@ -30,7 +30,7 @@
                 <li><a href="Inicio.jsp">INICIO</a></li>
                 
             </ul>
-            
+       
             <div class="in-container">
                 <p class="both"></p>    
                 <div class="in-head">
@@ -40,6 +40,7 @@
                     <p class="U-Des">
                         Creando una Cuenta podrá comprar rápido.
                     </p>
+                    <form action = "ControladorCrearPerfil" method = "POST">
                     <div class="U-Datos">
                         Direcion de correo electronico (E-MAil):<br>
                         <input type="text" name="e-mail" value="">
@@ -52,12 +53,13 @@
                         <br><br>
                         <button calss="U-Old-Iniciar" name="U-Old-Iniciar">Crear cuenta</button>
                     </div>
-                    
+                    </form >    
                 </div>
                 <div class="U-Old">
                     <p class="U-Des">
                         Ya soy cliente registrado, deseo iniciar sesion.
                     </p>
+                    <form action = "ControladorPerfil" method = "POST">
                     <div class="U-Datos">
                         Direcion de correo electronico (E-MAil):<br>
                         <input type="text" name="e-mail" value="">
@@ -70,6 +72,7 @@
                         <br><br>
                         <button calss="U-Old-Iniciar" name="U-Old-Iniciar">Inicia sesion</button>
                     </div>
+                    </form>     
                 </div>
                  
             </div>
