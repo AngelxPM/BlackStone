@@ -31,7 +31,7 @@
             </ul>
             
             <div class="in-container">
-                <img src="img/banner/banner-ew.jpg" alt="Banner" />
+                <img src="img/banner/banner-asus.jpg" alt="Banner" />
                 
                 <div class="in-head">
                     <span>Todos nuestras categorias</span>   

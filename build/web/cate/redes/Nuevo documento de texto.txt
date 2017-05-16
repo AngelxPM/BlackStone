@@ -1,0 +1,25 @@
+Cámara IP WiFi V2
+Solución práctica y asequible de videovigilancia a distancia, que permite seguir las imágenes de una habitación a través de Internet tanto mediante un ordenador como a través de teléfonos de nueva generación (smartphonesAndroid, Blackberry e iPhone…).
+La cámara incorpora unos rotores mecánicos internos que pueden controlarse a distancia a través de la red, lo cual significa que pueden hacerse panorámicas por control remoto para no perder detalle de lo que sucede en una habitación, con giros de 90º verticales y 270º horizontales. 
+Además su visión infrarroja permite vigilar un lugar que esté a oscuras en un radio de 8 a 10 metros de distancia.
+Su sistema de habla en dos direcciones permite además mantener conversaciones a distancia entre el usuario y las personas que se encuentre delante del objetivo, por lo que permite interactuar fácilmente, por ejemplo, con niños. Y si se utiliza como sistema de vigilancia se puede activar un detector de movimiento que transmitirá una alerta de alarma por imagen a través de e-mail y FTP.
+A través de su servidor online integrado en todo momento se pueden ver las imágenes que capta la cámara, así como mantener conversaciones a distancia gracias a su sistema de micrófono y altavoces, lo cual lo hace ideal para estar en contacto con familiares. Si se utiliza la cámara como sistema de vigilancia puede utilizarse el modo de alarma por movimiento, que hace que se suba a una dirección FTP imágenes del momento en que se detectan intrusos a la vez que se envía un e-mail de advertencia al usuario. 
+También es posible grabar desde un ordenador la transmisión de vídeo si fuera necesario.
+
+telefono: Auriculares Con Conexión RJ9
+Quien realice a menudo llamadas con un teléfono estándar sabe que el auricular del teléfono es muy incómodo. 
+Siempre se usa una mano o se sujeta contra el hombro, lo que causa lesiones en el cuello. La solución son estos auriculares con conexión telefónica.
+Simplemente tiene que enchufar el conector RJ9 al teléfono y el auricular está listo para su uso. 
+Es muy confortable y está equipado con un micrófono con reducción de ruido.
+
+router: El ASUS RT-N12E_B1 soporta conectividad 802.11 b/g/n con 300Mbps de velocidad. 
+Con una transmisión de datos muy estable, un consumo reducido y una instalación muy simple, 
+el RT-N12E_B1 es una solución ideal para disfrutar de una conexión de internet inalámbrica.
+
+switch: TP-LINK TL-SG1005D
+ un switch para sobremesa con 5 puertos Gigabit. El TL-SG1005D de TP-LINK es un switch de sobremesa con 5 puertos Gigabit que le permite migrar fácilmente su red a la tecnología Gigabit Ethernet. 
+Aumente tanto la velocidad de su servidor de red como la de las conexiones troncales o lleve la experiencia Gigabit a su escritorio. Adicionalmente, el diseño del TL-SG1005D le permite tener un menor consumo eléctrico. Gracias a su innovadora tecnología de eficiencia energética, el TL-SG1005D ahorra hasta un 70% de energía eléctrica, lo que lo convierte en una solución ecológica para la red de su hogar o lugar de trabajo. 5 puertos RJ45 Gigabit con detección automática de velocidad, soporte para MDI/MDIX automático. Tecnología de ahorro de energía para Ethernet que reduce el consumo hasta un 70%. El control de flujo IEEE 802.3x permite una transmisión fiable de datos. Carcasa de plástico, diseñado para ser usado como equipo de sobremesa o montarlo en la pared. 
+Plug and Play, sin ninguna configuración adicional.
+
+herramientas: Unotec Kit Herramientas 54 en 1
+Completo Kit de Herramientas que incluye dos mangos de destornillador (trinquete y antideslizante), pinzas de precisión y barras de extensión, y una gran variedad de roscas de 1/4" y puntas de cromado brillante. Podrás realizar toda clase de reparaciones. 

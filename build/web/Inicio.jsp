@@ -51,10 +51,12 @@
                 <form method="post" action="ControladorMore">
                     <div class="in-div-Pro">
                         <p name="Name"><%=Prodcutos.getNombre()%></p>    
-                        <img src="img/prod/<%=Prodcutos.getNombre()%>/01.png" alt="<%=Prodcutos.getNombre()%>"/>
+                        
+                        <img src="img/prod/<%=Prodcutos.getUbicacion()%>/01.png" alt="<%=Prodcutos.getNombre()%>"/>
+                        
                         <p id="info"><%=Prodcutos.getDescripcion()%></p>                 
                         
-                        <input type="hidden" name="accion" value="<%=Prodcutos.getNombre()%>">
+                        <input type="hidden" name="accion" value="<%=Prodcutos.getIdProducto()%>">
                         
                         <button onclick="ControladorMore">Ver mas..</button>
                         <button onclick="submit">Agregar</button>

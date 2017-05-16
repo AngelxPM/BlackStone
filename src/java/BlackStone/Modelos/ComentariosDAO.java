@@ -57,6 +57,7 @@ public class ComentariosDAO {
                 prod.setPrecioUnitario(Double.parseDouble(mensajes.getString("PRECIOUNITARIO")));
                 prod.setIdCategoria(Integer.parseInt(mensajes.getString("IDCATEGORIA")));
                 prod.setStock(Integer.parseInt(mensajes.getString("STOCK")));
+                prod.setUbicacion(mensajes.getString("UBICACION"));
                 catalagoProd.add(prod);
             
             }
@@ -80,7 +81,7 @@ public class ComentariosDAO {
             
             abrirConexion();
                         
-            String sql = "select * from PRODUCTO Where NOMBREPRODUCTO = '"+name+"'";
+            String sql = "select * from PRODUCTO Where IDPRODUCTO = "+name+"";
             
             Statement stmt = conexion.createStatement();
             mensajes =stmt.executeQuery(sql);
@@ -95,6 +96,7 @@ public class ComentariosDAO {
                 prod.setPrecioUnitario(Double.parseDouble(mensajes.getString("PRECIOUNITARIO")));
                 prod.setIdCategoria(Integer.parseInt(mensajes.getString("IDCATEGORIA")));
                 prod.setStock(Integer.parseInt(mensajes.getString("STOCK")));
+                prod.setUbicacion(mensajes.getString("UBICACION"));
                 
                 catalagoProd.add(prod);
             
@@ -109,6 +111,6 @@ public class ComentariosDAO {
         
         return catalagoProd;
     }
-    
+
     
 }
