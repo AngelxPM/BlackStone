@@ -12,3 +12,5 @@ os.arch=amd64
 os.version=10.0
 derby.system.home=C:\Users\alang\Documents\GitHub\BlackStone\BD
 Cargador de clases de base de datos iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 16 23:41:34 CDT 2017: cerrando motor de Derby
