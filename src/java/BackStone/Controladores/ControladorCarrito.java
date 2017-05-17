@@ -5,7 +5,7 @@
  */
 package BackStone.Controladores;
 
-<<<<<<< HEAD
+
 import BlackStone.Modelos.ProductoDAO;
 import BlackStone.Modelos.ProductoPOJO;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.ServletException;
-=======
+
 import BlackStone.Modelos.ComentariosDAO;
 import BlackStone.Modelos.Producto;
 import java.io.IOException;
@@ -26,7 +26,7 @@ import java.util.logging.Logger;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
->>>>>>> origin/master
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -36,12 +36,11 @@ import javax.servlet.http.HttpSession;
  *
 <<<<<<< HEAD
  * @author alang
- */
-=======
- * @author AngelxPM
+ *//*
+ @Alan Gerardo Gonzalez Lopez
  */
 @WebServlet(name = "ControladorCarrito", urlPatterns = {"/ControladorCarrito"})
->>>>>>> origin/master
+
 public class ControladorCarrito extends HttpServlet {
 
     /**
@@ -60,42 +59,27 @@ public class ControladorCarrito extends HttpServlet {
         
         HttpSession s = request.getSession();
         int idProd = Integer.parseInt(request.getParameter("producto"));
-        
+        String action = request.getParameter("action");
         ProductoDAO pdao = new ProductoDAO();
         
         ProductoPOJO pojo = new ProductoPOJO();
         
         pojo.setProducto(idProd);
         
-        pdao.agregar(pojo);
-        
-        
-        
-=======
-     */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException, SQLException {
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
+        if(action.equals("agregar")){
             
+            pdao.agregar(pojo);
             
-            HttpSession session = request.getSession();
-            RequestDispatcher dispatcher = null;
-            
-            dispatcher = request.getRequestDispatcher("Inicio.jsp");
-            
-            String accion = request.getParameter("accion");
-            
-            ComentariosDAO cDAO = new ComentariosDAO();
-            
-            ArrayList<Producto> Productos = cDAO.ProductoMore(accion);
-            session.setAttribute("Productos", Productos);
-            response.sendRedirect("Prueba.jsp"); 
-            
+            ArrayList <ProductoPOJO> productos = pdao.ver(pojo);
+            s.setAttribute("Productos", productos);
+            response.sendRedirect("Carrito.jsp");
             
         }
->>>>>>> origin/master
+        
+        
+        
+        
+
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
