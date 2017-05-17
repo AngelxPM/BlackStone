@@ -4,6 +4,8 @@
     Author     : AngelxPM
 --%>
 
+<%@page import="BlackStone.Modelos.Producto"%>
+<%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -32,7 +34,7 @@
             
             <div class="in-container">
                 
-                <img src="img/banner/banner-ew.jpg" alt="Banner" id="Banner"/>
+                <img src="img/banner/banner-hp.jpg" alt="Banner" id="Banner"/>
                 
                 <div class="in-head">
                     <span>Todos nuestros productos</span>   

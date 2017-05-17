@@ -5,14 +5,34 @@
  */
 package BlackStone.Modelos;
 
-import java.sql.Connection;
-import BlackStone.Modelos.*;
-
 /**
  *
  * @author AngelxPM
  */
 public class Producto {
+    
+    private int idProducto;
+    private String nombre;
+    private String descripcion;
+    private double precioUnitario;
+    private int idCategoria;
+    private int Stock;
+    private String Ubicacion;
+    
+    
+    /**
+     * @return the Ubicacion
+     */
+    public String getUbicacion() {
+        return nombre;
+    }
+
+    /**
+     * @param Ubicacion the nombre to set
+     */
+    public void setUbicacion(String Ubicacion) {
+        this.nombre = Ubicacion;
+    }
 
     /**
      * @return the Stock
@@ -102,12 +122,6 @@ public class Producto {
      * @return the IMGS
      */
     
-    private int idProducto;
-    private String nombre;
-    private String descripcion;
-    private double precioUnitario;
-    private int idCategoria;
-    private int Stock;
 
     
 }

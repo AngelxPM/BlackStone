@@ -18,6 +18,8 @@
         <title>PRODUCTO - BLACKSTONE</title>
     </head>
     <body>
+        <input type="hidden" name="Pagina" value="Producto">
+        
         <div class="container">
             
             <ul id="nav">
@@ -25,8 +27,8 @@
                 <li><a href="Perfil.jsp">PERFIL</a></li>
                 <li><a href="Carrito.jsp">CARRITO</a></li>
                 <li><a href="Categorias.jsp">CATEGORIAS</a></li>
-                <li><a href="Productos.jsp">PRODUCTOS</a>
-                <li><a href="Inicio.jsp">INICIO</a></li>
+                <li><a href="ControladorProductos">PRODUCTOS</a>
+                <li><a href="ControladorInicio">INICIO</a></li>
             </ul>
             
             <% 
@@ -41,14 +43,14 @@
             <div class="pro-container">
                 <div class="slide-img">
                     <div class="img-principal">
-                        <img src="img/prod/<%=comentario.getNombre()%>/01.png" alt="Pri" id="Img0P">
+                        <img src="img/prod/<%=comentario.getUbicacion()%>/01.png" alt="Pri" id="Img0P">
                     </div>
                     <div class="img-secundario">
-                        <img src="img/prod/<%=comentario.getNombre()%>/01.png" alt="Sec" id="Img01" onclick="CamImg01()">
-                        <img src="img/prod/<%=comentario.getNombre()%>/02.png" alt="Sec" id="Img02" onclick="CamImg02()">
-                        <img src="img/prod/<%=comentario.getNombre()%>/03.png" alt="Sec" id="Img03" onclick="CamImg03()">
-                        <img src="img/prod/<%=comentario.getNombre()%>/04.png" alt="Sec" id="Img04" onclick="CamImg04()">
-                        <img src="img/prod/<%=comentario.getNombre()%>/05.png" alt="Sec" id="Img05" onclick="CamImg05()">
+                        <img src="img/prod/<%=comentario.getUbicacion()%>/01.png" alt="Sec" id="Img01" onclick="CamImg01()">
+                        <img src="img/prod/<%=comentario.getUbicacion()%>/02.png" alt="Sec" id="Img02" onclick="CamImg02()">
+                        <img src="img/prod/<%=comentario.getUbicacion()%>/03.png" alt="Sec" id="Img03" onclick="CamImg03()">
+                        <img src="img/prod/<%=comentario.getUbicacion()%>/04.png" alt="Sec" id="Img04" onclick="CamImg04()">
+                        <img src="img/prod/<%=comentario.getUbicacion()%>/05.png" alt="Sec" id="Img05" onclick="CamImg05()">
                     </div>
                 </div>
                 <div class="slide-info">

@@ -43,6 +43,7 @@ public class ControladorProductos extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+            
             HttpSession session = request.getSession();
             RequestDispatcher dispatcher = null;
             
@@ -53,6 +54,7 @@ public class ControladorProductos extends HttpServlet {
             ArrayList<Producto> Productos = cDAO.catalago();
             session.setAttribute("Productos", Productos);
             response.sendRedirect("Productos.jsp");  
+            
         }
     }
 

@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
+<<<<<<< HEAD
         <servlet-name>ControladorCarrito</servlet-name>
         <servlet-class>BackStone.Controladores.ControladorCarrito</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControladorCarrito</servlet-name>
         <url-pattern>/ControladorCarrito</url-pattern>
+=======
+        <servlet-name>ContrladorPerfil</servlet-name>
+        <servlet-class>BackStone.Controladores.ContrladorPerfil</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorCrearPerfil</servlet-name>
+        <servlet-class>BackStone.Controladores.ControladorCrearPerfil</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContrladorPerfil</servlet-name>
+        <url-pattern>/ContrladorPerfil</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorCrearPerfil</servlet-name>
+        <url-pattern>/ControladorCrearPerfil</url-pattern>
+>>>>>>> origin/master
     </servlet-mapping>
     <session-config>
         <session-timeout>
